@@ -6,8 +6,9 @@
 }
 
 .mainb {
-    max-width: 100%;
+    max-width: 1920px;
     height: 830px;
+    margin: auto;
     background-image: url("./images/Vice-city.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -236,12 +237,47 @@
 
 
 .bgim{
-    max-width: 100%;
-    height: 830px;
+    max-width: 1920px;
+    height: 600px;
+    margin: auto;
     margin-top: 90px;
-    background-image: url("./images/Vice-city.jpg");
+    background-image: url("./images/Group\ 757.png");
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.btw{
+    width: 1200px;
+    height: 290px;
+    margin: auto;
+    position: relative;
+    top: 150px;
+    text-align: center;
+}
+
+.btw h1{
+    font-size: 45px;
+    font-weight: 700;
+    color: white;
+    background-color: #07AF91;
+}
+
+.btw h3{
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+}
+
+.gojo{
+    width: 338px;
+    height: 75px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    margin-top: 30px;
+    background: linear-gradient(#61B5E4, #0171b3);
 }
 
 
