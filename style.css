@@ -1,7 +1,189 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
     box-sizing: border-box;
 }
 
+.mainb {
+    width: 100%;
+    height: 830px;
+    background-image: url("./images/Vice-city.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    width: 1216px;
+    height: 94.7368392944336px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    top: 15px;
+}
+
+.png{
+    width: 150px;
+    height: 20px;
+}
+
+.t1 {
+    width: 504px;
+    height: 94.7368392944336px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.but1 {
+    width: 150px;
+    height: 55.657894134521484px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #07AF91;
+    border: none;
+    border-radius: 10px;
+}
+
+.tyx{
+    display: none;
+}
+
+.deep {
+    width: 780px;
+    height: 351.31591796875px;
+    color: white;
+    margin-left: 125px;
+    margin-top: 140px;
+}
+
+.pages{
+    display: none;
+}
+
+.gext {
+    color: white;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.hbtn {
+    width: 210px;
+    height: 75px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    margin-top: 30px;
+    background: linear-gradient(#61B5E4, #016CA8);
+}
+
+
+
+
+
+
+
+@media (max-width:510px) {
+    * {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.mainb {
+    width: 100%;
+    height: 740px;
+    background-image: url("./images/Vice-city.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    width: 320px;
+    height: 94.7368392944336px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    top: 15px;
+}
+
+.png{
+    width: 130px;
+    height: 18px;
+}
+
+.t1 {
+    display: none;
+}
+
+.but1 {
+    width: 88px;
+    height: 40px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #07AF91;
+    border: none;
+    border-radius: 10px;
+}
+
+.pages{
+    display: flex;
+}
+
+.deep {
+    width: 346px;
+    height: 350px;
+    color: white;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.gext {
+    width: 346px;
+    height: 411px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.hbtn {
+    width: 235px;
+    height: 55px;
+    border: none;
+    border-radius: 0%;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    position: relative;
+    top: -100px;
+    left: 60px;
+    background: linear-gradient(#61B5E4, #016CA8);
+}
+
+.tyx{
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    position: relative;
+    top: -140px;
+}
+
+.net{
+    display: none;
+}
+
+}
