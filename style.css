@@ -236,7 +236,7 @@
 }
 
 
-.bgim{
+.bgim {
     max-width: 1920px;
     height: 600px;
     margin: auto;
@@ -246,7 +246,7 @@
     background-repeat: no-repeat;
 }
 
-.btw{
+.btw {
     width: 1200px;
     height: 290px;
     margin: auto;
@@ -255,20 +255,20 @@
     text-align: center;
 }
 
-.btw h1{
+.btw h1 {
     font-size: 45px;
     font-weight: 700;
     color: white;
     background-color: #07AF91;
 }
 
-.btw h3{
+.btw h3 {
     font-size: 24px;
     font-weight: 500;
     color: white;
 }
 
-.gojo{
+.gojo {
     width: 338px;
     height: 75px;
     border: none;
@@ -279,6 +279,8 @@
     margin-top: 30px;
     background: linear-gradient(#61B5E4, #0171b3);
 }
+
+
 
 
 
@@ -562,5 +564,52 @@
         font-size: 16px;
         font-weight: 300;
     }
+
+
+    .bgim {
+        max-width: 100%;
+        height: 605px;
+        margin: auto;
+        margin-top: 90px;
+        background-image: url("./images/Group\ 757.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .btw {
+        width: 324px;
+        height: 414px;
+        margin: auto;
+        position: relative;
+        top: 80px;
+        text-align: center;
+    }
+
+    .btw h1 {
+        font-size: 28px;
+        font-weight: 600;
+        color: white;
+        background-color: #07AF91;
+    }
+
+    .btw h3 {
+        font-size: 17px;
+        font-weight: 500;
+        margin-top: 20px;
+        color: white;
+    }
+
+    .gojo {
+        width: 338px;
+        height: 75px;
+        border: none;
+        border-radius: 0%;
+        font-size: 20px;
+        font-weight: 500;
+        color: white;
+        margin-top: 30px;
+        background: linear-gradient(#61B5E4, #0171b3);
+    }
+
 
 }
