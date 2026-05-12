@@ -62,7 +62,6 @@
     color: white;
     margin-left: 125px;
     margin-top: 140px;
-    background-color: #07AF91;
 }
 
 .pages {
@@ -283,17 +282,6 @@
     color: white;
     margin-top: 30px;
     background: linear-gradient(#61B5E4, #0171b3);
-}
-
-.nih1{
-    width: 1216px;
-    height: 661px;
-    margin: auto;
-    margin-top: 95px;
-}
-
-.nih2{
-    width: 90%;
 }
 
 .container {
